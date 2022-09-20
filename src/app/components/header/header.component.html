@@ -1,0 +1,79 @@
+<div id="up"></div>
+<header id="header" class="container-fluid header">
+  <div class="row">
+    <div class="col-6 col-lg-1 header-section-1 d-flex align-items-center">
+      <img
+        routerLink="/home"
+        src="../../../assets/img/iconos-logos/mest.svg"
+        alt="Mest"
+      />
+    </div>
+    <div
+      class="col-6 col-lg-10 px-0 header-section-2 d-flex align-items-center justify-content-center"
+    >
+      <div class="d-flex justify-content-end menu-icon w-100">
+        <img
+          (click)="menu()"
+          class="menu-open"
+          src="../../../assets/img/iconos-logos/menu-open.png"
+          alt="Open menu"
+        />
+      </div>
+      <div class="menu-m w-100">
+        <ul
+          class="d-flex flex-column flex-lg-row justify-content-between align-items-center text-center px-0 list-style-none"
+        >
+          <a href="#quees">
+            <li class="">{{ "header1" | translate }}</li>
+          </a>
+          <a href="#meta">
+            <li class="">{{ "header2" | translate }}</li>
+          </a>
+          <a href="#fases">
+            <li>{{ "header3" | translate }}</li>
+          </a>
+          <a href="#early">
+            <li>{{ "header4" | translate }}</li>
+          </a>
+          <a href="#detras">
+            <li>{{ "header5" | translate }}</li>
+          </a>
+          <a href="#oportunidades">
+            <li>{{ "header6" | translate }}</li>
+          </a>
+          <a href="#roapmap">
+            <li>{{ "header7" | translate }}</li>
+          </a>
+          <a href="#faq">
+            <li>{{ "header8" | translate }}</li>
+          </a>
+          <div
+            class="col-12 col-lg-1 d-flex d-lg-none justify-content-center header-section-2-btn"
+          >
+            <button routerLink="/mint">
+              <img
+                src="../../../assets/img/iconos-logos/mest-logo-play.svg"
+                alt="Mest"
+              />
+              Mest
+            </button>
+          </div>
+          <div class="lang position-absolute d-flex d-lg-none">
+            <app-lang></app-lang>
+          </div>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="col-12 col-lg-1 d-none d-lg-flex justify-content-end header-section-3"
+    >
+      <button routerLink="/mint">
+        <img
+          src="../../../assets/img/iconos-logos/mest-logo-play.svg"
+          alt="Mest"
+        />
+        Mest
+      </button>
+    </div>
+  </div>
+</header>

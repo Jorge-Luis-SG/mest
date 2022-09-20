@@ -1,0 +1,57 @@
+<div class="mint position-relative">
+  <app-header></app-header>
+  <div class="lang position-absolute">
+    <app-lang></app-lang>
+  </div>
+  <div class="mint-main row position-relative">
+
+    <div class="col-12 col-lg-6 d-flex align-items-center mint-main-section1">
+      <div class="mint-main-content position-relative">
+        <img class="position-absolute arrow-mint" src="../../../assets/img/iconos-logos/arrows.png" alt="arrow">
+        <div class="mint-main-box1">
+          <h5 class="text-center">{{'mint.title' | translate}}</h5>
+          <div class="d-flex justify-content-evenly text-center">
+            <p>{{'mint.supply' | translate}}<br>
+              <span>12000</span></p>
+            <p>{{'mint.price' | translate}}<br>
+              <span >150 USDT</span></p>
+            <p>MAX<br><span>2</span></p>
+          </div>
+        </div>
+        <div class="space">
+        </div>
+        <div class="mint-main-box2 d-flex">
+          <div class="card">
+            <app-cards card="2" class="card1"></app-cards>
+          </div>
+          <div class="sale-mint">
+            <div class="sale-mint-title d-flex flex-column align-items-center justify-content-between">
+              <h5>{{'mint.limited' | translate}}</h5>
+              <span>{{'mint.sale' | translate}}</span>
+            </div>
+            <div class="sale-mint-item">
+              <h6 class="text-center">{{'mint.price2' | translate}}</h6>
+              <p class="eth text-center">0.10 ETH/EACH</p>
+              <div class="sale-mint-item-sale d-flex align-items-center justify-content-between">
+                <span class="mount">AMOUNT</span>
+                <div class="input d-flex align-items-center">
+                  <span (click)="res()">-</span>
+                  <input type="number" class="text-center" [value]="value" [(ngModel)]="value" max="2">
+                  <span (click)="sum()">+</span>
+                </div>
+                <span class="set-max" (click)="value=2; amount=300;">SET MAX</span>
+              </div>
+              <p class="text-center total">TOTAL: {{amount}} USDT </p>
+              <button class="btn text-center">MINT</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-6 d-flex align-items-center mint-main-section2">
+      <div class="card">
+           <app-cards card="2" class="card2"></app-cards>
+          </div>
+    </div>
+  </div>
+</div>

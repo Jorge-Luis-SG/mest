@@ -1,0 +1,22 @@
+.bottom-animation {
+  height: 2px;
+  width: 190px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  div {
+    height: 7px;
+    width: 40px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    animation: moving 2s ease-in-out 2s infinite alternate-reverse;
+  }
+}
+@keyframes moving {
+  0%{
+    transform: translateX(187%);
+  }
+  100%{
+    transform: translateX(-187%);
+
+  }
+}

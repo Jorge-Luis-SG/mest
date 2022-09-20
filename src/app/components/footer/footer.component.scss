@@ -1,0 +1,38 @@
+.footer{
+  & > div{
+    max-width: 550px;
+    height: 250px;
+    margin: 0 auto;
+  }
+  .box1{
+    img{
+      width: 100%;
+      max-width: 200px;
+    }
+  }
+  .box2{
+    button {
+      background: rgb(255, 255, 255);
+      background: linear-gradient(
+        28deg,
+        rgba(255, 255, 255, 0.23853291316526615) 0%,
+        rgba(128, 128, 128, 0.8015581232492998) 69%
+      );
+      min-width: 125px;
+      height: 45px;
+      border-radius: 2rem;
+      border: 2px solid #ffffff;
+    }
+  }
+  .box3{
+    .icon-white{
+      filter: invert(1);
+    }
+    img{
+      width: 20px;
+      height: 20px;
+      object-fit: contain;
+      margin-right: 1rem;
+    }
+  }
+}

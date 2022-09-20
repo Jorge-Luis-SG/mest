@@ -1,0 +1,378 @@
+
+<div class="home">
+  <div class="home-section1 row px-0">
+    <div class="col-12">
+      <app-header></app-header>
+    </div>
+    <div
+      class="col-12 home-section1-bg d-flex aling-items-center position-relative"
+    >
+      <div class="lang position-absolute d-none d-lg-block">
+        <app-lang></app-lang>
+      </div>
+      <div data-aos="fade-right"
+        class="home-section1-content d-flex flex-column justify-content-center align-items-center position-relative"
+      >
+        <img
+          class="position-absolute pointer"
+          src="../../../assets/img/iconos-logos/pointer.png"
+          alt=""
+        />
+        <img
+          class="logo"
+          src="../../../assets/img/iconos-logos/mest.svg"
+          alt="MEST"
+        />
+        <h2 class="text-center">
+          {{'home1' | translate}} <span>{{'home1-2' | translate}}</span>
+        </h2>
+        <app-animation></app-animation>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="home-section2 row" id="quees">
+    <div
+      class="col-12 col-lg-6 position-relative px-0 home-section2-box1 d-flex align-items-center"
+    >
+      <img
+        class="position-absolute svg"
+        src="../../../assets/img/iconos-logos/shapesvg.png"
+        alt=""
+      />
+      <img
+        class="shape"
+        src="../../../assets/img/iconos-logos/shape.png"
+        alt=""
+      />
+    </div>
+    <div
+      class="col-12 col-lg-6 d-flex justify-content-center align-items-center px-0"
+    >
+      <div
+        class="home-section2-box2 d-flex flex-column justify-content-center align-items-center position-relative"
+      >
+        <img
+          class="pointer position-absolute"
+          src="../../../assets/img/iconos-logos/pointer.png"
+          alt=""
+        />
+
+        <h2 data-aos="fade-left" >
+          {{'home2-1' | translate}} <br />
+          <img src="../../../assets/img/iconos-logos/mest.svg" alt="MEST" /> ?
+        </h2>
+        <p class="text-center" data-aos="fade-up">
+          {{'home2-2' | translate}}
+        </p>
+        <app-btn1 text="WHITEPAPER" link="{{'lang' | translate}}" ></app-btn1>
+      </div>
+    </div>
+  </div>
+  <div class="home-section3 row" id="meta">
+    <div
+      class="col-12 col-lg-8 d-flex align-items-center justify-content-center"
+    >
+      <div class="home-section3-box1">
+        <h4 data-aos="fade-right">META</h4>
+        <h5 data-aos="fade-left">STREAMING</h5>
+        <p data-aos="fade-up">
+          {{'home3' | translate}}
+        </p>
+        <app-btn1 text="TRAILER" link="#" [value]="false" ></app-btn1>
+
+      </div>
+      <img
+        class="arrows"
+        src="../../../assets/img/iconos-logos/arrows.png"
+        alt=""
+      />
+    </div>
+  </div>
+
+  <div class="home-section4 row" id="fases">
+    <div
+      class="col-12 col-lg-4 home-section4-box1 d-flex align-items-center justify-content-center"
+    >
+      <h4 data-aos="fade-right">{{'home4' | translate}}</h4>
+    </div>
+    <div
+      class="col-12 col-lg-4 home-section4-box2 d-flex flex-column justify-content-center"
+    >
+      <div data-aos="fade-up">
+        <h4>{{'home4-2' | translate}} <br /></h4>
+        <h5>{{'home4-3' | translate}}</h5>
+        <div class="space w-100"></div>
+      </div>
+    </div>
+    <div
+      class="col-12 col-lg-4 home-section4-box3 d-flex flex-column align-items-center justify-content-center"
+    >
+      <div data-aos="fade-left">
+        <p class="p1">{{'home4-4' | translate}}</p>
+        <span>{{'home4-5' | translate}}</span>
+        <p class="p2">
+          {{'home4-6' | translate}}
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="early" class="home-section5 row">
+    <div class="col-12 d-flex justify-content-center">
+      <img
+        class="arrows"
+        src="../../../assets/img/iconos-logos/arrows.png"
+        alt=""
+      />
+    </div>
+    <div class="col-12 home-section5-box2">
+      <h4 data-aos="fade-up">EARLY <span>ADOPTERS</span></h4>
+      <app-carousel></app-carousel>
+    </div>
+  </div>
+  <div id="oportunidades" class="home-section6 row">
+    <div
+      class="col-12 home-section6-box4 d-flex flex-column align-items-center position-relative"
+    >
+      <h4 data-aos="fade-right">
+        {{'home5' | translate}} <img src="../../../assets/img/iconos-logos/mest.svg" alt="" />
+      </h4>
+      <div class="pointer-line d-flex justify-content-center position-relative">
+        <img
+          class="pointer"
+          src="../../../assets/img/iconos-logos/pointer.png"
+          alt=""
+        />
+        <img
+          class="pointer"
+          src="../../../assets/img/iconos-logos/pointer.png"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div
+      class="col-12 col-lg-4 d-flex justify-content-center align-items-center"
+    >
+      <div class="home-section6-box1" data-aos="flip-left" >
+        <h5 class="title">15%</h5>
+        <p>
+          <span>{{'home5-2' | translate}}</span> {{'home5-3' | translate}}
+        </p>
+      </div>
+    </div>
+    <div
+      class="col-12 col-lg-4 d-flex justify-content-center align-items-center"
+    >
+      <div class="home-section6-box2 position-relative" data-aos="flip-up">
+        <p>
+          {{'home5-4' | translate}} <strong> {{'home5-4-1' | translate}}</strong> {{'home5-4-2' | translate}}
+        </p>
+        <app-animation></app-animation>
+
+      </div>
+    </div>
+    <div
+      class="col-12 col-lg-4 d-flex justify-content-center align-items-center"
+    >
+      <div class="home-section6-box3 position-relative" data-aos="flip-right">
+        <p>
+          <strong>{{'home5-5' | translate}}</strong> {{'home5-5-1' | translate}}
+        </p>
+        <app-animation></app-animation>
+
+      </div>
+    </div>
+    <div class="col-12 users">
+      <h3 class="text-center">{{'user' | translate}}</h3>
+      <h5 class="text-center d-block d-lg-none">{{'beneficios' | translate}}</h5>
+    </div>
+    <div
+      class="col-12 col-lg-4 d-flex justify-content-center align-items-center"
+    >
+      <div class="home-section6-box4" data-aos="flip-right">
+        <p>
+          {{'home5-6' | translate}}
+        </p>
+        <app-animation></app-animation>
+
+      </div>
+    </div>
+
+    <div class="col-12 col-lg-4 justify-content-center d-none d-lg-flex">
+      <div class="home-section6-box5 position-relative">
+        <h5 class="text-center">{{'beneficios' | translate}}</h5>
+        <div class="d-none d-lg-flex justify-content-between arrows-users">
+          <img src="../../../assets/img/iconos-logos/left.png" alt="" />
+          <img src="../../../assets/img/iconos-logos/right.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4 d-flex justify-content-center">
+      <div class="home-section6-box6 position-relative" data-aos="flip-left">
+        <p>
+          <span>{{'home5-7' | translate}}</span> {{'home5-7-1' | translate}}
+        </p>
+        <app-animation></app-animation>
+      </div>
+    </div>
+  </div>
+  <div
+    class="col-12 btn-white d-flex justify-content-center align-items-center"
+  >
+    <app-btn1 text="WHITEPAPER" link="{{'lang' | translate}}" ></app-btn1>
+  </div>
+
+  <div id="roapmap" class="home-section7 position-relative row">
+    <h4 class="text-center" data-aos="fade-left">ROAD <span>MAP</span>
+      <app-animation></app-animation>
+  </h4>
+    <div class="home-section7-roap d-flex flex-row-reverse flex-lg-column">
+      <div class="home-section7-content row mt-5">
+        <div class="col-12 col-lg-4 home-section7-box1 position-relative">
+          <ul id="first-info" (click)="roapMap('one')">
+            <li>{{'homeroap.1-1' | translate}}</li>
+            <li>{{'homeroap.1-2' | translate}}</li>
+            <li>{{'homeroap.1-3' | translate}}</li>
+            <li>{{'homeroap.1-4' | translate}}</li>
+            <li>{{'homeroap.1-5' | translate}}</li>
+            <div class="box d-flex position-absolute">
+              <div
+                class="d-flex flex-column align-items-center justify-content-center flex-lg-row"
+              >
+                <h6 (click)="roapMap('one')" class="mb-2 mb-lg-0">2022</h6>
+                <span>Q2</span>
+              </div>
+              <div class="points d-none d-lg-block">
+                <div class="points-p1" (click)="roapMap('one')"></div>
+                <div class="points-p2" (click)="roapMap('one')"></div>
+              </div>
+            </div>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-4 home-section7-box2 position-relative">
+          <ul id="two-info" (click)="roapMap('two')">
+            <li>{{'homeroap.2-1' | translate}}</li>
+            <li>{{'homeroap.2-2' | translate}}</li>
+            <li>{{'homeroap.2-3' | translate}}</li>
+            <li>{{'homeroap.2-4' | translate}}</li>
+            <li>{{'homeroap.2-5' | translate}}</li>
+            <div class="box d-flex position-absolute">
+              <div
+                class="d-flex flex-column align-items-center justify-content-center flex-lg-row"
+              >
+                <h6 (click)="roapMap('two')" class="mb-2 mb-lg-0">2022</h6>
+                <span>Q3</span>
+              </div>
+              <div class="points d-none d-lg-block">
+                <div class="points-p1" (click)="roapMap('two')"></div>
+                <div class="points-p2" (click)="roapMap('two')"></div>
+              </div>
+            </div>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-4 home-section7-box3 position-relative">
+          <ul id="thirty-info" (click)="roapMap('thirty')">
+            <li>{{'homeroap.3-1' | translate}}</li>
+            <li>{{'homeroap.3-2' | translate}}</li>
+            <li>{{'homeroap.3-3' | translate}}</li>
+            <li>{{'homeroap.3-4' | translate}}</li>
+            <div class="box d-flex position-absolute">
+              <div
+                class="d-flex flex-column align-items-center justify-content-center flex-lg-row"
+              >
+                <h6 (click)="roapMap('thirty')" class="mb-2 mb-lg-0">2022</h6>
+                <span>Q4</span>
+              </div>
+              <div class="points d-none d-lg-block">
+                <div class="points-p1" (click)="roapMap('thirty')"></div>
+                <div class="points-p2" (click)="roapMap('thirty')"></div>
+              </div>
+              <div class="pointstWO d-lg-block">
+                <div class="">
+                  <a class="btn" href="../../../assets/pdfs/mest-{{'lang' | translate}}.pdf" download>{{'seemore' | translate}}</a>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 home-section7-line">
+        <div class="home-section7-line-content">
+          <div class="home-section7-line-content-box">
+            <div id="status" class="status"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 d-flex justify-content-center">
+      <img
+        class="arrows"
+        src="../../../assets/img/iconos-logos/arrows.png"
+        alt=""
+      />
+    </div>
+    <div class="col-12 publicidad" id="detras">
+      <h4 data-aos="fade-right">
+        {{'publicidad.title' | translate}} <img src="../../../assets/img/iconos-logos/mest.svg" alt="" />
+      </h4>
+      <div
+        class="publicidad-contain d-flex flex-column flex-lg-row justify-content-between"
+      >
+        <div
+          class="publicidad-contain-box1 d-flex flex-column align-items-center justify-content-center position-relative"
+        >
+          <img src="../../../assets/img/E3.svg" alt="" />
+          <p class="text-center">
+            {{'publicidad.1-1' | translate}}
+          </p>
+          <app-animation></app-animation>
+
+        </div>
+        <div class="publicidad-contain-box2 mt-5 mt-0">
+          <p class="mt-5 mt-0">
+            {{'publicidad.2-1' | translate}}
+          </p>
+          <div class="d-flex align-items-center justify-content-center">
+            <span>50%</span>
+            <p>
+              {{'publicidad.2-2' | translate}}
+            </p>
+          </div>
+          <p>
+            {{'publicidad.2-3' | translate}}
+          </p>
+        </div>
+      </div>
+
+      <div class="by-creator d-flex justify-content-center">
+        <h5 class="text-center">
+          {{'by' | translate}}
+          <a href="https://vi-ain.com/" target="_blank"><img src="../../../assets/img/iconos-logos/vi-ain.svg" alt="Vi-ain" /></a>
+        </h5>
+      </div>
+    </div>
+  </div>
+  <div id="faq" class="home-section8 position-relative row">
+    <h4 data-aos="fade-up" class="title text-center">FAQ</h4>
+    <div class="home-section8-content">
+      <div class="home-section8-content-box" data-aos="fade-right">
+        <h4>{{'faq.1-1' | translate}}</h4>
+        <p>{{'faq.1-2' | translate}}</p>
+      </div>
+      <div class="home-section8-content-box" data-aos="fade-left">
+        <h4>{{'faq.2-1' | translate}}</h4>
+        <p>{{'faq.2-2' | translate}}</p>
+      </div>
+      <div class="home-section8-content-box" data-aos="fade-right">
+        <h4>{{'faq.3-1' | translate}}</h4>
+        <p>{{'faq.3-2' | translate}}</p>
+      </div>
+      <div class="home-section8-content-box" data-aos="fade-left">
+        <h4>{{'faq.4-1' | translate}}</h4>
+        <p>{{'faq.4-2' | translate}}</p>
+      </div>
+    </div>
+  </div>
+</div>

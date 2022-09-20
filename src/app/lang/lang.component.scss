@@ -1,0 +1,19 @@
+.lang {
+  width: 65px;
+  div {
+    height: 20px;
+    width: 2px;
+    background-color: #fff;
+  }
+  span {
+    color: #ffffff50;
+    cursor: pointer;
+    font-size: 1.25rem;
+    @media screen and (max-width:768px){
+      font-size: .9rem;
+    }
+  }
+  .lang-active {
+    color: #fff;
+  }
+}

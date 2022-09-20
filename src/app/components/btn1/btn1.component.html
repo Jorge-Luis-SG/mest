@@ -1,0 +1,7 @@
+
+ <a *ngIf="value; else elseBlock" class="btn" href="../../../assets/pdfs/mest-{{link}}.pdf" download>{{text}} </a>
+
+ <ng-template #elseBlock>
+  <a class="btn" href="{{link}}" >{{text}}</a>
+</ng-template>
+

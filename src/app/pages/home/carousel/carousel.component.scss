@@ -1,0 +1,98 @@
+.card {
+  background-color: #00000000;
+  transition: all 0.7s;
+  max-width: 320px;
+  margin: 0 auto;
+  @media screen and (max-width: 1400px) {
+    max-width: 270px;
+  }
+  @media screen and (max-width: 1050px) {
+    max-width: 245px;
+  }
+  @media screen and (max-width: 850px) {
+    max-width: 215px;
+  }
+ 
+
+  .info {
+    max-width: 275px;
+    margin: 2rem auto;
+    opacity: 0;
+    .btn {
+      color: #ffffff;
+      border: 1px solid #ffffff;
+      border-radius: 1.5rem;
+      width: 135px;
+      font-size: 0.9rem;
+      padding: 0.5rem 0;
+    }
+    & > div {
+      p {
+        padding: 2rem 1.5rem;
+        @media screen and (max-width: 900px) {
+          padding: 1.5rem;
+        }
+      }
+      .borde1 {
+        &-img1,
+        &-img2 {
+          position: absolute;
+          object-fit: contain;
+          width: 7px;
+          @media screen and (max-width: 900px) {
+            width: 10px;
+          }
+        }
+        &-img2 {
+          right: 0;
+        }
+      }
+      .borde2 {
+        &-img1,
+        &-img2 {
+          position: absolute;
+          object-fit: contain;
+          width: 7px;
+          margin-bottom: 2.5rem;
+
+        }
+        &-img2 {
+          right: 0;
+        }
+      }
+      .borde3 {
+        &-img1,
+        &-img2 {
+          position: absolute;
+          object-fit: contain;
+          width: 9px;
+        }
+        &-img2 {
+          right: 0;
+        }
+      }
+    }
+
+  }
+}
+.swiper-wrapper {
+  min-height: 1000px;
+  @media screen and (max-width: 600px) {
+    min-height: 850px;
+
+  }
+}
+.swiper-slide {
+  margin-top: 8rem;
+
+  &-active {
+    transform: scale(1.2);
+    transition: all 0.7s;
+    .info {
+      opacity: 1;
+      p {
+        min-height: 175px;
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.card {
+  background-color: #000000;
+  max-width: 400px;
+  margin: 0 auto;
+  border: 2px solid #ffffff;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  &-bg {
+    padding: 1rem;
+    background-image: url(../../../assets/img/bg-cards.png);
+  }
+  img {
+    width: 100%;
+  }
+  &-logo {
+    max-width: 100px;
+    filter: brightness(0.5);
+    margin: 1rem auto;
+  }
+}
+
+.card1 {
+  border: 3.5px solid #ffffff !important;
+  border-radius: 2.5rem;
+  & > div {
+    padding: 0;
+    .card-logo {
+      max-width: 60px;
+      padding-bottom: 1rem;
+    }
+  }
+}
+.card2 {
+  background-color: transparent;
+  max-width: 500px;
+  border: 0px solid #ffffff !important;
+  border-radius: 0;
+  & > div {
+    padding: 0;
+    background-image: none;
+    .card-logo {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,128 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #0a0a0a;
+}
+
+* {
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+li {
+  list-style: none;
+}
+.row {
+  margin: 0;
+  padding: 0;
+  .col-12,
+  .col-lg-6 {
+    padding: 0;
+  }
+}
+.lang {
+  right: 2rem;
+  bottom: 6rem;
+}
+
+
+// COLORES
+
+$color1: #474747;
+$color2: #808080;
+$color3: #666666;
+$border1: #707070;
+
+// ESTILOS PRE HECHOS
+.arrows {
+  width: 100%;
+  max-width: 155px;
+}
+%title-bg {
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 1.7rem;
+  margin: 0;
+  height: 55px;
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+%gjose{
+  font-family: 'Josefin Sans';
+}
+%gpoppin{
+  font-family: 'Poppins';
+}
+
+
+// FONTS
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('./assets/fonts/JosefinSans-Bold.eot');
+  src: url('./assets/fonts/JosefinSans-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/JosefinSans-Bold.woff2') format('woff2'),
+      url('./assets/fonts/JosefinSans-Bold.woff') format('woff'),
+      url('./assets/fonts/JosefinSans-Bold.ttf') format('truetype'),
+      url('./assets/fonts/JosefinSans-Bold.svg#JosefinSans-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('./assets/fonts/JosefinSans.eot');
+  src: url('./assets/fonts/JosefinSans.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/JosefinSans.woff2') format('woff2'),
+      url('./assets/fonts/JosefinSans.woff') format('woff'),
+      url('./assets/fonts/JosefinSans.ttf') format('truetype'),
+      url('./assets/fonts/JosefinSans.svg#JosefinSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('./assets/fonts/JosefinSans-SemiBold.eot');
+  src: url('./assets/fonts/JosefinSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/JosefinSans-SemiBold.woff2') format('woff2'),
+      url('./assets/fonts/JosefinSans-SemiBold.woff') format('woff'),
+      url('./assets/fonts/JosefinSans-SemiBold.ttf') format('truetype'),
+      url('./assets/fonts/JosefinSans-SemiBold.svg#JosefinSans-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/fonts/Poppins-Regular.eot');
+  src: url('./assets/fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/Poppins-Regular.woff2') format('woff2'),
+      url('./assets/fonts/Poppins-Regular.woff') format('woff'),
+      url('./assets/fonts/Poppins-Regular.ttf') format('truetype'),
+      url('./assets/fonts/Poppins-Regular.svg#Poppins-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nove';
+  src: url('./assets/fonts/Noventa812Display014.eot');
+  src: url('./assets/fonts/Noventa812Display014.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/Noventa812Display014.woff2') format('woff2'),
+      url('./assets/fonts/Noventa812Display014.woff') format('woff'),
+      url('./assets/fonts/Noventa812Display014.ttf') format('truetype'),
+      url('./assets/fonts/Noventa812Display014.svg#Noventa812Display014') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

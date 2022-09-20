@@ -1,0 +1,110 @@
+
+{
+  "lang":"es",
+  "header1":"¿Qué es Mest?",
+  "header2":"Meta Streaming",
+  "header3":"Fases",
+  "header4":"Los Primeros",
+  "header5":"Publicidad en Mest",
+  "header6":"Oportunidades",
+  "header7":"Road Map",
+  "header8":"FAQ",
+  "seemore":"VER MÁS",
+  "by":"PROYECTO POR",
+
+  "user":"USUARIOS",
+  "beneficios":"BENEFICIOS",
+
+  "home1":"EL STREAMING DEL",
+  "home1-2":"METAVERSO",
+
+  "home2-1":"¿QUÉ ES",
+  "home2-2":"El futuro del STREAMING y las PRODUCCIONES AUDIOVISUALES que cambiará la forma en la que consumimos contenidos, MEST te permitirá ser usuario o creador, y de ambas formas beneficiarte.",
+
+  "home3":"Esta plataforma integrará lo mejor del contenido actual como: series, películas, miniseries, documentales, remakes, making of, educación y muchas cosas más, con una experiencia inmersiva y sensitiva utilizando la tecnología del metaverso y el ecosistema blockchain - digital.",
+
+  "home4":"FASE INICIAL",
+  "home4-2":"LANZAMIENTO",
+  "home4-3":"LOS PRIMEROS EN ADOPTAR",
+  "home4-4":"Será creada una colección de",
+  "home4-5":"12.000 piezas",
+  "home4-6":"inicialmente para la capitalización del proyecto, cada holder se convertirá en socio de MEST adquiriendo un % global y beneficios únicos.",
+
+  "home5":"OPORTUNIDADES CON",
+  "home5-2":"de las ganancias",
+  "home5-3":"serán distribuidas dentro de la plataforma de la siguiente forma:",
+
+  "home5-4":"El dinero será ",
+  "home5-4-1":"distribuido porcentualmente",
+  "home5-4-2":"según la cantidad de visualizaciones que cada creador haya generado mes tras mes.",
+
+  "home5-5":"Cada creador obtendrá un NFT",
+  "home5-5-1":"que le dará la identidad de creador y que le permitirá estar dentro de esta categoría, y recibir sus pago correspondiente generado a través del smart contract.",
+
+  "home5-6":"El 10% será destinado a la creación de una incubadora de producciones audiovisuales de proyectos propuestos por la comunidad y seleccionada por votación para su desarrollo.",
+
+  "home5-7":"Link de recomendación:",
+  "home5-7-1":"Link que permitirá generar beneficios por compartir nuestra comunidad (10% de cada nuevo membership).",
+
+  "homeroap":{
+    "1-1":"Inversión privada",
+    "1-2":"Branding de la marca",
+    "1-3":"Estructura económica",
+    "1-4":"Desarrollo del Brief",
+    "1-5":"Creación de WhitePaper y Roadmap",
+
+    "2-1":"Apertura de redes sociales",
+    "2-2":"Marketing de posicionamiento",
+    "2-3":"Lanzamiento de la pagina web mest.digital",
+    "2-4":"Preventa de los primeros NFTs early adopters",
+    "2-5":"Primeros vistazos a la interfaz de Mest",
+
+
+    "3-1":"Lanzamiento plataforma digital Mest para web",
+    "3-2":"Primeras reproducciones de los contenidos de la plataforma",
+    "3-3":"Desarrollo de plataforma para Metaverso",
+    "3-4":"Primer contenido de inmersión en el metaverso"
+  },
+
+  "publicidad":{
+    "title":"PUBLICIDAD EN",
+    "1-1":"Mest permitirá un plan de publicidad que tendrá el filtro de la DAO.",
+
+    "2-1":"La comunidad decidirá que empresas podrán o no hacer publicidad dentro de la plataforma, el",
+    "2-2":"de los beneficios serán distribuidos entre todos los usuarios que vean la publicidad.",
+    "2-3":"Cuidaremos al máximo que la publicidad no sea invasiva ni no deseada."
+  },
+
+  "faq":{
+    "1-1":"¿En qué Blockchain está la colección?",
+    "1-2":"Red Ethereum.",
+    "2-1":"¿Cuál es el suministro total?",
+    "2-2":"12.000 NFT.",
+    "3-1":"¿Precio de Mint?",
+    "3-2":"150 USDT.",
+    "4-1":"¿NFT por wallet?",
+    "4-2":"Máximo 2."
+  },
+  "card":{
+    "1":"Membresía de por vida para MEST en todas sus fases, pool con beneficios del 0,5% al 1% variable durante 36 meses sobre lo invertido.",
+    "2":"El 25% de las ganancias del ecosistema serán para los socios holders de MEST.",
+    "3":"Pertenecer a la DAO con la que se contará para el desarrollo votación en cada nueva propuesta que brinde el ecosistema."
+  },
+
+
+  "mint":{
+    "title":"FECHA LIMITADA DE MINT",
+    "supply":"SUMINISTRO",
+    "price":"PRECIO",
+    "limited":"VENTA",
+    "sale":"LIMITADA",
+    "price2":"PRECIO POR NFT"
+
+  }
+
+
+
+
+
+
+}
